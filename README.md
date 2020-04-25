@@ -8,5 +8,9 @@ This project builds a self driving car which is based on the technique of lane d
 
 
 
-# About the files
+### About the files
 
+
+#### Computer/
+*computer_server.py* : 1. video streaming from raspi to computer<br />
+                       2. ssdvasdsd
