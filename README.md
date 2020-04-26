@@ -14,9 +14,9 @@ This project builds a self driving car which is based on the technique of lane d
 
 #### Computer/
 **_computer_server.py_** : 
-1. Video streaming from raspi to computer
-2. Calculating the steering angle
-3. Transferring the steering angle using socket
+&emsp; &emsp;  &emsp; &emsp;1. Video streaming from raspi to computer<br />
+&emsp; &emsp;  &emsp; &emsp;2. Calculating the steering angle<br />
+&emsp; &emsp;  &emsp; &emsp;3. Transferring the steering angle using socket<br />
 
 #### Raspberry Pi/
 **_raspi_client_1.py_**:
