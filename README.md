@@ -1,5 +1,5 @@
 # J.A.C.W.I.B
-## Authors/Developers : [Amod Sahasrabudhe](https://www.linkedin.com/in/amod-sahasrabudhe-685b011a7/), [Rohan Tergaonkar](https://in.linkedin.com/in/rohan-tergaonkar-481b17188), Udit Gavasane
+## Authors/Developers : [Amod Sahasrabudhe](https://www.linkedin.com/in/amod-sahasrabudhe-685b011a7), [Rohan Tergaonkar](https://in.linkedin.com/in/rohan-tergaonkar-481b17188), Udit Gavasane
 J.A.C.W.I.B (Just Another Car With Intelligent Brain) is a lane keeping, self driving car built using Raspberry Pi and OpenCV.
 
 ![JACWIB](https://github.com/Udit-Gavasane/J.A.C.W.I.B/blob/master/JACWIB.jpg)
