@@ -1,5 +1,5 @@
 # J.A.C.W.I.B
-## Authors/Developers : Udit Gavasane, Rohan Tergaonkar, Amod Sahasrabudhe
+## Authors/Developers : Amod Sahasrabudhe, Rohan Tergaonkar, Udit Gavasane
 J.A.C.W.I.B (Just Another Car With Intelligent Brain) is a lane keeping, self driving car built using Raspberry Pi and OpenCV.
 
 ![JACWIB](https://github.com/Udit-Gavasane/J.A.C.W.I.B/blob/master/JACWIB.jpg)
@@ -30,3 +30,8 @@ This project builds a self driving car which is based on the technique of lane d
 
 
 ### How to drive
+1. **Connection:** Connect Raspberry Pi to Host Computer using Remote Desktop Connection to control the Raspberry Pi via Host Computer.
+2. **Testing:** Execute the `test_drive.py` program on Raspberry Pi terminal to check the throttle and direction of the car.
+3. **Initialise Server:** On the host computer, execute `computer_server.py`.
+4. **Initialise Client:** On the Raspberry Pi simultaneously execute 2 client programs i.e. `raspi_client_1.py` and `raspi_client_2.py` respectively. At this point, the host computer will start calculating steering angle based on the video stream received by `raspi_client_2.py` from the Raspberry Pi and will send them back through socket which will be received by `raspi_client_1.py` client.
+5. **Self-Driving in Action:** Based on the steering angle, the program `raspi_client_1.py` will give instructions to the GPIO pins of the Raspberry Pi for running the motors (motors are used to drive the wheels of the car). Thus the car will start driving autonomously in the designated lanes.
