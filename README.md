@@ -36,4 +36,4 @@ This project builds a self driving car which is based on the technique of lane d
 4. **Initialise Client:** On the Raspberry Pi simultaneously execute 2 client programs i.e. `raspi_client_1.py` and `raspi_client_2.py` respectively. At this point, the host computer will start calculating steering angle based on the video stream received by `raspi_client_2.py` from the Raspberry Pi and will send them back through socket which will be received by `raspi_client_1.py` client.
 5. **Self-Driving in Action:** Based on the steering angle, the program `raspi_client_1.py` will give instructions to the GPIO pins of the Raspberry Pi for running the motors (motors are used to drive the wheels of the car). Thus the car will start driving autonomously in the designated lanes.
 
-##### Check out our article for detailed information on this project.&emsp;[J.A.C.W.I.B](https://medium.com/@amod.jacwib/j-a-c-w-i-b-autonomous-car-9c42bc732279)
+##### Check out our article for detailed information on this project.&emsp;[J.A.C.W.I.B](https://towardsdatascience.com/j-a-c-w-i-b-autonomous-car-9c42bc732279)
